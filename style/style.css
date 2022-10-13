@@ -1,0 +1,169 @@
+@import url(./anim.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d2d3fd;
+}
+
+p {
+  font-weight: 900;
+  color: rgb(67, 67, 67);
+}
+
+h3 {
+  color: rgb(67, 67, 67);
+}
+
+.firstBreak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  background-image: linear-gradient(160deg, #5944f8 0%, #80D0C7 100%);
+  margin-bottom: 5rem;
+}
+.firstBreak img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0px;
+}
+
+header h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+}
+header .ulHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+header .ulHeader li {
+  list-style: none;
+  width: 15rem;
+  height: 20rem;
+  color: whitesmoke;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  font-size: large;
+}
+header .ulHeader li:hover {
+  transform: scale(1.1);
+}
+header .ulHeader li img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 14px 1px whitesmoke;
+}
+header .ulHeader li a i {
+  color: #8EC5FC;
+  font-size: 40px;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+header .ulHeader li a i:hover {
+  -webkit-animation: myAnim 2s ease 0s 1 normal forwards;
+          animation: myAnim 2s ease 0s 1 normal forwards;
+}
+header .ulHeader #clement {
+  background: #E4857E;
+}
+header .ulHeader #dinesh {
+  background: #26050D;
+}
+header .ulHeader #enzo {
+  background: #7581AA;
+}
+header .ulHeader #ihab {
+  background: #E8AFC7;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pHeader {
+  color: whitesmoke;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+.pHeader img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px whitesmoke solid;
+  box-shadow: 1px 1px 14px 1px whitesmoke;
+}
+
+main p {
+  font-size: 25px;
+  margin: 20px 20px;
+}
+main h2 {
+  color: whitesmoke;
+  font-size: 3rem;
+}
+main .mainCompetences {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+main .mainCompetences img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px whitesmoke solid;
+  box-shadow: 1px 1px 14px 1px whitesmoke;
+}
+main .mainCompetences img:hover {
+  box-shadow: 0px 5px 30px 25px whitesmoke;
+}
+
+nav {
+  overflow: hidden;
+  color: whitesmoke;
+  background-color: #5944f8;
+  width: 100%;
+  opacity: 0.8;
+}
+nav h1 {
+  text-align: center;
+  font-size: 50px;
+  background-image: linear-gradient(160deg, #5944f8 0%, #80D0C7 100%);
+}
+
+.mainText {
+  font-size: 25px;
+  margin: 20px 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+.mainText a:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
